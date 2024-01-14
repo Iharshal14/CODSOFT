@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>Skill</title>
+        <link rel="stylesheet">
+    </head>
+    <body>
+        
+      <div class="skill">
+        <h1>My Skills</h1>
+        
+        <li><h3>MySQL</h3>
+        <span class="bar"><span class="MySQL"></span></span>
+        </li>
+        <li><h3>html</h3>
+        <span class="bar"><span class="html"></span></span>
+        </li>
+        <li><h3>css</h3>
+        <span class="bar"><span class="css"></span></span>
+        </li>
+        <li><h3>aws</h3>
+        <span class="bar"><span class="aws"></span></span>
+        </li>
+        <li><h3>php</h3>
+        <span class="bar"><span class="php"></span></span>
+        </li>
+        <li><h3>javascript</h3>
+        <span class="bar"><span class="javascript"></span></span>
+        </li>
+        
+      </div>
+      <style>
+*{
+    font-family: 'Gill Sans', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(imgs/bg.jpg);
+    text-transform: uppercase;
+    background-size: cover;
+    
+}
+h1{
+  text-align: center;
+}
+h3{
+  margin: 5px;
+}
+.skill{
+  width: 500px;
+  margin: 60px auto;
+  color: #000000;
+  padding: 20px;
+  box-shadow: 0 10px 38px rgba(248, 66, 66, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li{
+  margin: 20px 0;
+  padding: 10px;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.MySQL{
+  width: 50%;
+  animation: MySQL 3s;
+}
+.html{
+  width: 70%;
+  animation: html 3s;
+}
+.css{
+  width: 70%;
+  animation: css 3s;
+}
+.aws{
+  width: 40%;
+  animation: aws 3s;
+}
+.php{
+  width: 50%;
+  animation: php 3s;
+}
+.javascript{
+  width: 60%;
+  animation: javascript 3s;
+}
+@keyframes MySQL{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes aws{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+@keyframes php{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+      </style>
+    </body>
+</html>
